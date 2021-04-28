@@ -4,7 +4,7 @@ import requests
 import json
 import logging
 
-URL = "https://m.land.naver.com/complex/getComplexArticleList"
+URL = "https://m.land.naver.com/map/35.9017473:128.8470917:14:4729025300/OR/B2#mapFullList"
 
 param = {
     'hscpNo': '19672',
@@ -14,7 +14,7 @@ param = {
 }
 
 header = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.220 Whale/1.3.51.7 Safari/537.36',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36',
     'Referer': 'https://m.land.naver.com/'
 }
 

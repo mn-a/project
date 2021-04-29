@@ -7,8 +7,10 @@ import logging
 URL = "https://m.land.naver.com/map/35.9017473:128.8470917:14:4729025300/OR/B2#mapFullList"
 
 param = {
-    'hscpNo': '19672',
-    'tradTpCd': 'A1',
+    'view': 'atc1',
+    'cortarNo' : '4729025300'
+    'rletipCd' : 'OR'
+    'tradTpCd': 'B2',
     'order': 'date_',
     'showR0': 'N',
 }
